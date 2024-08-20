@@ -1,0 +1,13 @@
+:root {
+  --primary-color: ;
+  --secondary-color: #f0fbfd;
+}
+
+.social-media a i {
+  border-radius: 50%;
+  transform: scale(1.5);
+  margin: 20px 30px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  padding: 15px;
+}
