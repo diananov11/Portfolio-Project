@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #0a58ca;
+  --primary-color: #6c63ff;
   --secondary-color: #f8f9fa;
   --font-heading: "Playfair Display", serif;
   --font-text: "Poppins", sans-serif;
@@ -24,6 +24,10 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 48px;
+}
+
 p {
   margin: 0px;
 }
@@ -35,20 +39,25 @@ p.fw-bold {
 .heading {
   background-color: var(--secondary-color);
   max-width: 1440px;
-  height: 500px;
+  height: 550px;
   padding-top: 100px;
   text-align: center;
-  margin: 0;
 }
 
-.btn-style {
+.btn-style,
+.btn-style-2:hover {
   background: var(--primary-color);
   color: white;
 }
 
-.btn-style:hover {
+.btn-style:hover,
+.btn-style-2 {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+}
+
+div.col-sm-6 p {
+  text-align: justify;
 }
 
 .social-media a i {
@@ -58,6 +67,7 @@ p.fw-bold {
   background-color: var(--secondary-color);
   border-radius: 50%;
   padding: 15px;
+  color: var(--primary-color);
 }
 
 @media (max-width: 600px) {
