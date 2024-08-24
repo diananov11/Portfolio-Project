@@ -60,6 +60,10 @@ div.col-md-6 p {
   text-align: justify;
 }
 
+.my-image {
+  max-width: 350px;
+}
+
 .social-media a i {
   border-radius: 50%;
   transform: scale(1.5);
