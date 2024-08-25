@@ -97,4 +97,8 @@ div.work-inquiry {
   h2 {
     font-size: 35px;
   }
+
+  .my-image {
+    max-width: 350px;
+  }
 }
