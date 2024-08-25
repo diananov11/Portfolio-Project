@@ -12,25 +12,24 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: var(--font-heading);
   margin: 0;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 h1 {
   font-size: 96px;
-  font-weight: 700;
 }
 
 h2 {
   font-size: 48px;
 }
-
-/* .header {
-  margin-top: 200px;
-} */
 
 p {
   margin: 0px;
