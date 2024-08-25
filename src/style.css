@@ -28,6 +28,10 @@ h2 {
   font-size: 48px;
 }
 
+/* .header {
+  margin-top: 200px;
+} */
+
 p {
   margin: 0px;
 }
@@ -61,7 +65,15 @@ div.col-md-6 p {
 }
 
 .my-image {
-  max-width: 350px;
+  max-width: 450px;
+}
+
+div.fbox-icon img {
+  max-width: 200px;
+}
+
+div.work-inquiry {
+  background-color: var(--secondary-color);
 }
 
 .social-media a i {
@@ -81,5 +93,9 @@ div.col-md-6 p {
 
   p.fw-bold {
     font-size: 30px;
+  }
+
+  h2 {
+    font-size: 35px;
   }
 }
